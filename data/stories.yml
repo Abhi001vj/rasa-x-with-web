@@ -6,3 +6,22 @@ stories:
   - action: utter_greet
   - intent: main_menu
   - action: utter_main_menu
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_product
+  - action: utter_search
+  - action: utter_search_results
+- story: Story from Conversation ID ae89c43aa9bb45f7b4306d958404e241
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_product
+  - action: utter_search_results
+- story: Story from Conversation ID 074a464467ca4dfa876f04af97ecaab6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_product
+  - action: utter_search_results
